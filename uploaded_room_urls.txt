@@ -1,0 +1,100 @@
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera5/10413d06-ba9e-47e0-9c07-929b1876ab48.webp (size: 95936 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/10413d06-ba9e-47e0-9c07-929b1876ab48_a5175088.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera5/16a34adf-5a28-4ecb-b8f8-da2ff775022a.webp (size: 53062 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/16a34adf-5a28-4ecb-b8f8-da2ff775022a_4bccc5e0.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera5/28d6b5da-b948-4f7f-9f95-25ef44980e7b.webp (size: 144094 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/28d6b5da-b948-4f7f-9f95-25ef44980e7b_255749df.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera5/37c2fb9c-1c49-4631-9fd1-f504c688ed48.webp (size: 111944 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/37c2fb9c-1c49-4631-9fd1-f504c688ed48_cdb12d48.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera5/48dc1edb-bb76-4983-a9df-18c22c0b99a6.webp (size: 99222 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/48dc1edb-bb76-4983-a9df-18c22c0b99a6_5bd1994c.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera5/60b67644-ac27-4484-b72d-8616f02d96f2.webp (size: 164534 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/60b67644-ac27-4484-b72d-8616f02d96f2_83d9e4ce.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera5/ca814af7-627d-4057-8c9a-6c17feefe588.webp (size: 97364 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/ca814af7-627d-4057-8c9a-6c17feefe588_c488cfbc.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera19/0b3c6041-e32c-4d14-9140-4c3a89f3e1c4.webp (size: 80528 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/0b3c6041-e32c-4d14-9140-4c3a89f3e1c4_a5105818.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera19/19dc6185-9a76-424c-b44f-b22b3b06503f.webp (size: 88428 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/19dc6185-9a76-424c-b44f-b22b3b06503f_ae2fa825.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera19/459647e7-2489-4409-a0b0-42dfea48d22f.webp (size: 87966 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/459647e7-2489-4409-a0b0-42dfea48d22f_b6752496.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera19/657424d9-eaa1-4a45-a519-816cd5031058.webp (size: 105174 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/657424d9-eaa1-4a45-a519-816cd5031058_a5baafb6.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera19/7e299350-4682-40e3-9f7f-70c2468042a4.webp (size: 82714 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/7e299350-4682-40e3-9f7f-70c2468042a4_9a45dad5.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera19/9f0547c1-0375-4298-890b-821ce4ea95e0.webp (size: 61454 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/9f0547c1-0375-4298-890b-821ce4ea95e0_4b6a67f8.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera19/bbe9236c-776a-45bc-8302-c122cf98fc5a.webp (size: 104280 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/bbe9236c-776a-45bc-8302-c122cf98fc5a_174dbaa4.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera19/ec6b3ef9-c62d-4481-b30d-d5f1e64568cb.webp (size: 101810 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/ec6b3ef9-c62d-4481-b30d-d5f1e64568cb_08ba0553.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera22/3860f13b-945f-4f3d-b289-596f5d634ef1.webp (size: 79518 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/3860f13b-945f-4f3d-b289-596f5d634ef1_b44f0daf.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera22/7d566862-92cc-4e88-8f60-e3b95434686a.webp (size: 77874 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/7d566862-92cc-4e88-8f60-e3b95434686a_3b8be5a1.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera22/c80e5d18-64b5-4a34-b3a5-d2e50e1ea965.webp (size: 79900 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/c80e5d18-64b5-4a34-b3a5-d2e50e1ea965_14deab10.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera22/e03c47cf-9ac8-454a-9080-766d515817da.webp (size: 49294 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/e03c47cf-9ac8-454a-9080-766d515817da_b339c567.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera124/1baefeda-71a4-4b27-9e7f-b65f8bf48697.webp (size: 75550 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/1baefeda-71a4-4b27-9e7f-b65f8bf48697_1a8dba68.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera124/d7b0dfaf-9164-4886-b3ea-b35981859dbe.webp (size: 72458 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/d7b0dfaf-9164-4886-b3ea-b35981859dbe_60824539.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera124/db5b6243-e06e-4648-b42e-8d75a4978284.webp (size: 94696 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/db5b6243-e06e-4648-b42e-8d75a4978284_14dc2958.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera124/e8fd9b96-c2f4-4588-8779-23692942a2ac.webp (size: 40456 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/e8fd9b96-c2f4-4588-8779-23692942a2ac_b4834611.webp
+Uploading file (webdev): /home/ubuntu/webdev-static-assets/camere/camera124/f21402b4-491e-4b2b-9aa1-e47550479c25.webp (size: 136348 bytes)
+File uploaded successfully!
+CDN URL: https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/f21402b4-491e-4b2b-9aa1-e47550479c25_34f6eda9.webp
+
+========== Upload Summary ==========
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera5/10413d06-ba9e-47e0-9c07-929b1876ab48.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/10413d06-ba9e-47e0-9c07-929b1876ab48_a5175088.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera5/16a34adf-5a28-4ecb-b8f8-da2ff775022a.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/16a34adf-5a28-4ecb-b8f8-da2ff775022a_4bccc5e0.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera5/28d6b5da-b948-4f7f-9f95-25ef44980e7b.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/28d6b5da-b948-4f7f-9f95-25ef44980e7b_255749df.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera5/37c2fb9c-1c49-4631-9fd1-f504c688ed48.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/37c2fb9c-1c49-4631-9fd1-f504c688ed48_cdb12d48.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera5/48dc1edb-bb76-4983-a9df-18c22c0b99a6.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/48dc1edb-bb76-4983-a9df-18c22c0b99a6_5bd1994c.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera5/60b67644-ac27-4484-b72d-8616f02d96f2.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/60b67644-ac27-4484-b72d-8616f02d96f2_83d9e4ce.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera5/ca814af7-627d-4057-8c9a-6c17feefe588.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/ca814af7-627d-4057-8c9a-6c17feefe588_c488cfbc.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera19/0b3c6041-e32c-4d14-9140-4c3a89f3e1c4.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/0b3c6041-e32c-4d14-9140-4c3a89f3e1c4_a5105818.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera19/19dc6185-9a76-424c-b44f-b22b3b06503f.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/19dc6185-9a76-424c-b44f-b22b3b06503f_ae2fa825.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera19/459647e7-2489-4409-a0b0-42dfea48d22f.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/459647e7-2489-4409-a0b0-42dfea48d22f_b6752496.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera19/657424d9-eaa1-4a45-a519-816cd5031058.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/657424d9-eaa1-4a45-a519-816cd5031058_a5baafb6.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera19/7e299350-4682-40e3-9f7f-70c2468042a4.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/7e299350-4682-40e3-9f7f-70c2468042a4_9a45dad5.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera19/9f0547c1-0375-4298-890b-821ce4ea95e0.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/9f0547c1-0375-4298-890b-821ce4ea95e0_4b6a67f8.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera19/bbe9236c-776a-45bc-8302-c122cf98fc5a.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/bbe9236c-776a-45bc-8302-c122cf98fc5a_174dbaa4.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera19/ec6b3ef9-c62d-4481-b30d-d5f1e64568cb.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/ec6b3ef9-c62d-4481-b30d-d5f1e64568cb_08ba0553.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera22/3860f13b-945f-4f3d-b289-596f5d634ef1.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/3860f13b-945f-4f3d-b289-596f5d634ef1_b44f0daf.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera22/7d566862-92cc-4e88-8f60-e3b95434686a.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/7d566862-92cc-4e88-8f60-e3b95434686a_3b8be5a1.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera22/c80e5d18-64b5-4a34-b3a5-d2e50e1ea965.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/c80e5d18-64b5-4a34-b3a5-d2e50e1ea965_14deab10.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera22/e03c47cf-9ac8-454a-9080-766d515817da.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/e03c47cf-9ac8-454a-9080-766d515817da_b339c567.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera124/1baefeda-71a4-4b27-9e7f-b65f8bf48697.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/1baefeda-71a4-4b27-9e7f-b65f8bf48697_1a8dba68.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera124/d7b0dfaf-9164-4886-b3ea-b35981859dbe.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/d7b0dfaf-9164-4886-b3ea-b35981859dbe_60824539.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera124/db5b6243-e06e-4648-b42e-8d75a4978284.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/db5b6243-e06e-4648-b42e-8d75a4978284_14dc2958.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera124/e8fd9b96-c2f4-4588-8779-23692942a2ac.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/e8fd9b96-c2f4-4588-8779-23692942a2ac_b4834611.webp
+[SUCCESS] /home/ubuntu/webdev-static-assets/camere/camera124/f21402b4-491e-4b2b-9aa1-e47550479c25.webp -> https://d2xsxph8kpxj0f.cloudfront.net/310519663552838519/EbQY2r76hdF7myyHETMxsG/f21402b4-491e-4b2b-9aa1-e47550479c25_34f6eda9.webp
+=====================================
+Total: 24, Success: 24, Failed: 0

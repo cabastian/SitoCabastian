@@ -1,0 +1,604 @@
+/*
+Design reminder for index.css:
+Mediterranean editorial warmth. Warm limestone backgrounds, terracotta accents, olive shadows, elegant serif display typography, restrained borders, textured depth, and calm motion. Maintain strong contrast over imagery and avoid generic centered SaaS styling.
+*/
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+:root {
+  --radius: 0rem;
+  --background: oklch(0.97 0.014 78.18);
+  --foreground: oklch(0.28 0.035 42.4);
+  --card: oklch(0.985 0.01 72.3);
+  --card-foreground: oklch(0.28 0.035 42.4);
+  --popover: oklch(0.985 0.01 72.3);
+  --popover-foreground: oklch(0.28 0.035 42.4);
+  --primary: oklch(0.58 0.13 42.2);
+  --primary-foreground: oklch(0.98 0.01 75);
+  --secondary: oklch(0.93 0.022 84.8);
+  --secondary-foreground: oklch(0.32 0.04 41.2);
+  --muted: oklch(0.94 0.014 80.1);
+  --muted-foreground: oklch(0.5 0.026 44);
+  --accent: oklch(0.88 0.035 72.5);
+  --accent-foreground: oklch(0.26 0.034 40.5);
+  --destructive: oklch(0.61 0.19 24.5);
+  --destructive-foreground: oklch(0.98 0.01 75);
+  --border: oklch(0.85 0.02 77.8 / 70%);
+  --input: oklch(0.89 0.02 76.1);
+  --ring: oklch(0.58 0.13 42.2);
+  --shell: oklch(0.965 0.018 80.2);
+  --shell-strong: oklch(0.94 0.024 76.4);
+  --ink-deep: oklch(0.22 0.032 38.6);
+  --muted-ink: oklch(0.47 0.025 45.3);
+  --accent-warm: oklch(0.7 0.11 53.2);
+  --olive-shadow: oklch(0.39 0.027 102.5);
+}
+
+.dark {
+  --background: oklch(0.18 0.016 42);
+  --foreground: oklch(0.92 0.01 75);
+  --card: oklch(0.22 0.014 42);
+  --card-foreground: oklch(0.92 0.01 75);
+  --popover: oklch(0.22 0.014 42);
+  --popover-foreground: oklch(0.92 0.01 75);
+  --primary: oklch(0.66 0.12 47);
+  --primary-foreground: oklch(0.18 0.016 42);
+  --secondary: oklch(0.28 0.018 42);
+  --secondary-foreground: oklch(0.92 0.01 75);
+  --muted: oklch(0.26 0.014 42);
+  --muted-foreground: oklch(0.76 0.012 75);
+  --accent: oklch(0.3 0.022 45);
+  --accent-foreground: oklch(0.94 0.01 75);
+  --destructive: oklch(0.68 0.16 26);
+  --destructive-foreground: oklch(0.94 0.01 75);
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 14%);
+  --ring: oklch(0.66 0.12 47);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Manrope", sans-serif;
+    background-image:
+      radial-gradient(circle at top, rgba(255, 255, 255, 0.55), transparent 38%),
+      linear-gradient(180deg, rgba(160, 123, 82, 0.05), transparent 30%);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .brand-mark,
+  .hero-title,
+  .section-title,
+  .room-title,
+  .stat-value {
+    font-family: "Cormorant Garamond", serif;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  [type="button"]:not(:disabled),
+  [type="submit"]:not(:disabled),
+  [type="reset"]:not(:disabled),
+  a[href],
+  select:not(:disabled),
+  input[type="checkbox"]:not(:disabled),
+  input[type="radio"]:not(:disabled) {
+    @apply cursor-pointer;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, oklch(0.58 0.13 42.2) 28%, white);
+    color: var(--ink-deep);
+  }
+}
+
+@layer components {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .flex {
+    min-height: 0;
+    min-width: 0;
+  }
+
+  .site-nav {
+    background: linear-gradient(180deg, rgba(56, 39, 25, 0.42), rgba(56, 39, 25, 0.18));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 18px 38px rgba(32, 22, 14, 0.14);
+  }
+
+  .nav-link,
+  .footer-link {
+    position: relative;
+    transition: opacity 180ms ease;
+  }
+
+  .nav-link::after,
+  .footer-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.35rem;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background: currentColor;
+    transition: transform 220ms ease;
+  }
+
+  .nav-link:hover::after,
+  .footer-link:hover::after {
+    transform: scaleX(1);
+  }
+
+  .brand-mark {
+    font-size: clamp(1.45rem, 1.8vw, 1.9rem);
+    letter-spacing: 0.02em;
+  }
+
+  .hero-shell {
+    background: linear-gradient(180deg, oklch(0.21 0.02 42) 0%, oklch(0.3 0.032 43) 100%);
+  }
+
+  .hero-photo {
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    background-size: cover;
+    transform: scale(1.03);
+  }
+
+  .hero-grain {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.035), rgba(255, 255, 255, 0.035)),
+      radial-gradient(circle at 20% 20%, rgba(255, 219, 184, 0.14), transparent 26%),
+      radial-gradient(circle at 85% 18%, rgba(100, 129, 90, 0.12), transparent 20%);
+    mix-blend-mode: screen;
+    opacity: 0.7;
+    pointer-events: none;
+  }
+
+  .eyebrow,
+  .section-label {
+    font-size: 0.72rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.34em;
+    text-transform: uppercase;
+  }
+
+  .hero-title {
+    font-size: clamp(3.8rem, 10vw, 6.8rem);
+    line-height: 0.9;
+    letter-spacing: -0.03em;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1.3rem, 2.2vw, 2rem);
+    line-height: 1.14;
+    font-weight: 500;
+  }
+
+  .hero-description,
+  .section-copy,
+  .room-detail,
+  .review-quote,
+  .service-name,
+  .booking-note {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  .cta-primary {
+    background: linear-gradient(180deg, color-mix(in srgb, var(--accent-warm) 84%, white), color-mix(in srgb, var(--primary) 84%, black 6%));
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    box-shadow: 0 18px 35px rgba(118, 63, 34, 0.22);
+    transition:
+      transform 180ms ease,
+      box-shadow 180ms ease,
+      filter 180ms ease;
+  }
+
+  .cta-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 24px 44px rgba(118, 63, 34, 0.28);
+    filter: brightness(1.04);
+  }
+
+  .cta-secondary {
+    backdrop-filter: blur(12px);
+    transition:
+      transform 180ms ease,
+      background-color 180ms ease,
+      color 180ms ease;
+  }
+
+  .cta-secondary:hover {
+    transform: translateY(-2px);
+  }
+
+  .overview-panel,
+  .booking-shell {
+    background: linear-gradient(180deg, rgba(255, 248, 240, 0.92), rgba(248, 241, 231, 0.92));
+    border: 1px solid rgba(86, 59, 36, 0.12);
+    box-shadow: 0 22px 55px rgba(51, 36, 22, 0.12);
+  }
+
+  .section-spacing {
+    padding-top: 2rem;
+  }
+
+  .section-intro-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .section-title {
+    color: var(--ink-deep);
+    font-size: clamp(2.2rem, 4vw, 3.8rem);
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+  }
+
+  .stat-block {
+    display: flex;
+    min-height: 10rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    border-left: 1px solid rgba(86, 59, 36, 0.14);
+    padding-left: 1rem;
+  }
+
+  .stat-value {
+    color: var(--ink-deep);
+    font-size: clamp(2.6rem, 4vw, 4rem);
+    line-height: 0.9;
+  }
+
+  .stat-label {
+    color: var(--muted-ink);
+    font-size: 0.8rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  .room-chip {
+    border: 1px solid rgba(86, 59, 36, 0.14);
+    background: rgba(255, 250, 244, 0.78);
+    padding: 0.9rem 1.2rem;
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted-ink);
+    transition:
+      transform 180ms ease,
+      background-color 180ms ease,
+      color 180ms ease,
+      border-color 180ms ease;
+  }
+
+  .room-chip:hover,
+  .room-chip.is-active {
+    background: var(--ink-deep);
+    color: white;
+    border-color: var(--ink-deep);
+    transform: translateY(-2px);
+  }
+
+  .room-stage {
+    align-items: start;
+  }
+
+  .room-photo-frame {
+    position: relative;
+    overflow: hidden;
+    min-height: 32rem;
+    border: 1px solid rgba(86, 59, 36, 0.12);
+    background: rgba(255, 251, 246, 0.95);
+    box-shadow: 0 22px 46px rgba(44, 30, 18, 0.12);
+  }
+
+  .room-featured-image {
+    width: 100%;
+    height: 100%;
+    min-height: 32rem;
+    object-fit: cover;
+  }
+
+  .room-copy-panel {
+    border-top: 1px solid rgba(86, 59, 36, 0.14);
+    padding-top: 1rem;
+  }
+
+  .room-title {
+    font-size: clamp(2rem, 3vw, 3.2rem);
+    line-height: 0.98;
+    color: var(--ink-deep);
+  }
+
+  .detail-pill {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid rgba(86, 59, 36, 0.14);
+    padding: 0.65rem 0.9rem;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted-ink);
+    background: rgba(255, 251, 246, 0.78);
+  }
+
+  .thumb-card {
+    overflow: hidden;
+    border: 1px solid rgba(86, 59, 36, 0.14);
+    background: rgba(255, 251, 246, 0.9);
+    transition:
+      transform 180ms ease,
+      border-color 180ms ease,
+      box-shadow 180ms ease;
+  }
+
+  .thumb-card:hover,
+  .thumb-card.is-active {
+    transform: translateY(-2px);
+    border-color: rgba(86, 59, 36, 0.4);
+    box-shadow: 0 16px 28px rgba(44, 30, 18, 0.12);
+  }
+
+  .thumb-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .services-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .service-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid rgba(86, 59, 36, 0.12);
+    background: rgba(255, 251, 246, 0.84);
+    padding: 1.15rem 1rem;
+    box-shadow: 0 10px 24px rgba(44, 30, 18, 0.06);
+  }
+
+  .service-icon-wrap {
+    display: inline-flex;
+    height: 2.8rem;
+    width: 2.8rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(86, 59, 36, 0.14);
+    color: var(--ink-deep);
+    background: rgba(255, 247, 238, 0.95);
+  }
+
+  .service-name {
+    color: var(--ink-deep);
+    line-height: 1.45;
+  }
+
+  .reviews-shell {
+    background: linear-gradient(180deg, rgba(35, 25, 17, 0.95), rgba(54, 40, 28, 0.96));
+    box-shadow: 0 24px 55px rgba(32, 20, 12, 0.22);
+  }
+
+  .review-card {
+    background: linear-gradient(180deg, rgba(255, 248, 240, 0.97), rgba(249, 241, 230, 0.94));
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1.5rem;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  }
+
+  .review-quote {
+    color: var(--ink-deep);
+  }
+
+  .review-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem 1.2rem;
+    color: var(--muted-ink);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  .booking-form {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .field-group {
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .field-label {
+    color: var(--muted-ink);
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  .field-shell {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    border: 1px solid rgba(86, 59, 36, 0.12);
+    background: rgba(255, 251, 246, 0.94);
+    padding: 0 1rem;
+  }
+
+  .field-icon {
+    height: 1rem;
+    width: 1rem;
+    flex: none;
+    color: var(--muted-ink);
+  }
+
+  .field-input,
+  .field-textarea {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    color: var(--ink-deep);
+    font-size: 1rem;
+    outline: none;
+  }
+
+  .field-input {
+    min-height: 3.5rem;
+  }
+
+  .field-select {
+    appearance: none;
+  }
+
+  .field-textarea {
+    min-height: 10rem;
+    resize: vertical;
+    border: 1px solid rgba(86, 59, 36, 0.12);
+    background: rgba(255, 251, 246, 0.94);
+    padding: 1rem;
+  }
+
+  .field-input-dashed,
+  .field-textarea-dashed {
+    width: 100%;
+    border: 2px dashed rgba(184, 92, 60, 0.4);
+    background: transparent;
+    color: var(--ink-deep);
+    font-size: 1rem;
+    outline: none;
+    padding: 0.75rem 1rem;
+    font-family: inherit;
+    transition: border-color 200ms ease;
+  }
+
+  .field-input-dashed:focus,
+  .field-textarea-dashed:focus {
+    border-color: rgba(184, 92, 60, 0.7);
+  }
+
+  .field-input-dashed {
+    min-height: 3rem;
+  }
+
+  .field-textarea-dashed {
+    min-height: 10rem;
+    resize: vertical;
+  }
+
+  .booking-note {
+    color: var(--ink-deep);
+    font-weight: 600;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    .services-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .booking-form {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+      max-width: 1280px;
+    }
+
+    .section-intro-grid {
+      grid-template-columns: minmax(0, 1fr) minmax(18rem, 34rem);
+      align-items: end;
+    }
+
+    .services-grid {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 767px) {
+    .hero-title {
+      max-width: 12rem;
+    }
+
+    .hero-description {
+      max-width: 34rem;
+    }
+
+    .room-photo-frame,
+    .room-featured-image {
+      min-height: 23rem;
+    }
+  }
+}
